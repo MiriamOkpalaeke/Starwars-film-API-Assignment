@@ -1,0 +1,130 @@
+.logo {
+  max-width: 450px;
+  height: 76px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.loading {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.title {
+  color: white;
+  font-size: 1.375rem;
+  line-height: 1.5;
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.movie-card {
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+  min-width: 300px;
+  border-radius: 5px;
+
+}
+
+.movie-card:hover {
+  box-shadow: 0 0 10px 4px rgb(31, 137, 179);
+  transition: 0.1s;
+}
+
+.movie-card:nth-child(1) {
+  background-image: url('../Assets/bg-card-1.0c96fd00.png');
+}
+
+.movie-card:nth-child(2) {
+  background-image: url('../Assets/bg-card-2.b0a7b209.png');
+}
+
+.movie-card:nth-child(3) {
+  background-image: url('../Assets/bg-card-3.1914d853.png');
+}
+
+.movie-card:nth-child(4) {
+  background-image: url('../Assets/bg-card-4.c21c4d4b.png');
+}
+
+.movie-card:nth-child(5) {
+  background-image: url('../Assets/bg-card-5.67d061d6.png');
+}
+
+.movie-card:nth-child(6) {
+  background-image: url('../Assets/bg-card-6.b4fea25d.png');
+}
+
+li {
+  list-style-type: none;
+}
+
+.date {
+  color: rgb(157, 157, 157);
+  font-size: .875rem;
+}
+
+.content {
+  line-height: 1.5;
+  margin: 20px 0;
+  font-size: .875rem;
+
+}
+
+.alert-message {
+  font-size: 1.125rem;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.red-line {
+  background-color: rgb(129, 12, 12);
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.link {
+  color: rgb(214, 214, 9);
+  text-decoration: none;
+  font-size: .875rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/*responsiveness */
+@media screen and (min-width: 750px) {
+  .movie-card {
+    max-width: 320px;
+    min-width: 310px;
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .movie-card {
+    max-width: 340px;
+    min-width: 330px;
+
+  }
+}
